@@ -14,6 +14,7 @@ const displayCountry = countres => {
         <p>Capital: ${country.capital} </p>
         <p>Region: ${country.region} </p>
         <p>Demonym: ${country.demonym} </p>
+        <img width="160px" src="${country.flag}" alt="">
         
         `;
         countrySec.appendChild(countryDiv);
